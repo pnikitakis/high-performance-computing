@@ -1,4 +1,4 @@
-# high-performance-computing
+# High Performance Computing
 5 problem sets of parallel programming on CPU and GPU. University projects for High Performance Computing Systems (Fall 2016).
 
 ## Description
