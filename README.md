@@ -10,7 +10,7 @@ Programmed with CUDA and C on GPU and CPU. Explored both homogeneous and heterog
 - Code optimization: Loop interchange, loop unrolling, loop fusion, function inling, loop invariant code motion, common subexpression elimination, strength reduction
 - Performance analysis and profiling
 
-#### Problem 2:
+#### Part 2:
 - OpenMP
 - Multi-threaded CPU programming
 - K-means clustering
