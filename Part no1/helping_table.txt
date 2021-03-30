@@ -1,0 +1,9 @@
+s4----------Function Inlining 
+s41---------Loop Interchange
+s415--------Loop Invariant code motion
+s4156-------Common Subexpression Elimination
+s41563------Loop Fusion
+s415632-----Loop unrolling
+s415632b----Loop unrolling no2
+s415632b7---Strength Reduction
+s415632b78--Helping Compiler
