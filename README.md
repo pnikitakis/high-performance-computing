@@ -2,20 +2,34 @@
 5 problem sets of parallel programming on CPU and GPU. University projects for High Performance Computing Systems (Fall 2016).
 
 ## Description
-
+Programmed with CUDA and C on GPU and CPU. Explored both homogeneous and heterogeneous parallel architects and introduced to performance measurement techniques, profiling, experimental evaluation of software interaction with underlying hardware and optimization.
 
 #### Part 1: 
-Create Mandelbrot set by dividing into N parts, where each calculates has an individual painting work. Implemented by having each part of the work assigned to a thread that returns to the main thread, which paints the results. 
+- Operator Sobel
+- PSNR
+- Code optimization: Loop interchange, loop unrolling, loop fusion, function inling, loop invariant code motion, common subexpression elimination, strength reduction
+- Performance analysis and profiling
 
 #### Problem 2:
-Control the traffic over a 2-way bridge, so that:
-- There are no cars moving both ways
-- There are no more than N cars on the bridge at any time
-- There can't be any car waiting forever
-Implemented with 2 threads in each entrance of the bridge, by using semaphores.
+- OpenMP
+- Multi-threaded CPU programming
+- K-means clustering
+- Performance analysis and profiling
 
 #### Part 3:
-A roller coaster fits N passengers and starts only when it's full. Passengers get off when the roller coaster has finished the ride and before the new passengers come. Implemented a synchronization between passengers and roller coaster, where there is one thread for passenger and one for the roller coaster.
+- Convolution filter
+- Tiling
+- Divergences
+- PTXAS
+
+#### Part 4:
+- Convolution
+- Histogram
+- Mapping
+
+#### Part 5:
+- Contrast enhancement
+- Histogram equalization
 
 ## Prerequisites
 - CUDA
